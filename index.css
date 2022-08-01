@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    background-image: url(./download.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-origin: inherit;
+}
+.padd{
+    padding: 20px;
+    margin: 0 auto;
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+}
+.nom{
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+@media only screen and (max-width:700px){
+    .padd{
+        width: 100%!important;
+    }
+    .biror{
+        width: 100%!important;
+        margin-top: 20px;
+    }
+    .rasm_1{
+        width: 20%;
+    }
+    .row_1{
+        max-width: 100%;
+    }
+    .nom{
+        margin-top: 20px!important;
+    }
+    .rasmm{
+        width: 100%;
+    }
+    .kaka{
+        width: 20%!important;
+    }
+    .haq{
+        width: 100%!important;
+    }
+    .nan{
+       width: 100%!important;
+        margin-top: 20px;
+    }
+}
+.hoverr:hover{
+      color: blue;
+      transition: all 1s;
+}
+.hov:hover{
+    background-color: green;
+    color: white!important;
+    transition: all 1s;
+    cursor: pointer;
+}
+.va{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 20px;
+}
+.va:hover{
+    background-color: transparent;
+    transition: all 1s;
+}
+.ja{
+    padding: 20px;
+}
+.ha{
+    background-color: rgb(202, 202, 202);
+}
+.jah{
+    display: grid;
+    justify-content: center;
+}
+.ka{
+    background-image: url(./02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    height: 200px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+.haq{
+    background-color: white;
+}
+.nan{
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-left: 40px;
+    padding: 0!important;
+}
+.kal:hover{
+    color: blue;
+    transition: all 1s;
+    cursor: pointer;
+}
